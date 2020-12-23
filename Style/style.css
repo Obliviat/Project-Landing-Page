@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-family: "Rufina", serif;
+  font-size: 2.5em;
+}
+h3 {
+  font-family: "Abel", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+p {
+  font-family: "Abel", sans-serif;
+  text-align: justify;
+}
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+#navegation {
+  background-color: #222;
+  height: 80px;
+  width: auto;
+  margin: 0;
+  padding: 20px 60px;
+}
+#navegation li {
+  font-family: "Abel", sans-serif;
+  font-size: 1.8em;
+  color: #fff;
+  display: inline;
+  margin-right: 100px;
+}

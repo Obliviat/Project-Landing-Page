@@ -1,50 +1,107 @@
+/** @format */
+
+/* //// Utilities ////// */
+
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
-
 body {
-  margin: 0;
+	margin: 0;
 }
 
 h1 {
-  font-family: "Fredericka the Great", cursive;
-  font-size: 3.5em;
+	font-family: "Fredericka the Great", cursive;
+	font-size: 3.5em;
 }
 
 h2 {
-  font-family: "Rufina", serif;
-  font-size: 2.5em;
+	font-family: "Rufina", serif;
+	font-size: 2.5em;
 }
 h3 {
-  font-family: "Abel", sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
+	font-family: "Abel", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 p {
-  font-family: "Abel", sans-serif;
-  text-align: justify;
+	font-family: "Abel", sans-serif;
+	text-align: justify;
 }
+i {
+	font-size: 3em;
+	color: #222;
+}
+li a:hover {
+	background-color: rgb(182, 182, 182);
+	padding: 15px 40px;
+}
+
+.btn {
+	float: right;
+	padding-left: 40px;
+}
+
 .container {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 1200px;
 }
+
+@media (max-width: 1024px) {
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1em;
+	}
+	a:hover {
+		padding: 38px 25px;
+	}
+}
+
+/* ////// Navegation ////// */
+
 #navegation {
-  background-color: #222;
-  height: 80px;
-  width: auto;
-  margin: 0;
-  padding: 20px 60px;
+	background-color: #222;
+	height: 80px;
+	width: auto;
+	margin: 0;
+	padding: 20px 60px;
 }
 #navegation li {
-  font-family: "Abel", sans-serif;
-  font-size: 1.8em;
-  color: #fff;
-  display: inline;
-  margin-right: 100px;
+	display: inline;
+	list-style: none;
+}
+#navegation a {
+	font-family: "Abel", sans-serif;
+	font-size: 1.8em;
+	text-anchor: middle;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+	#navegation a {
+		font-size: 0.75em;
+		margin-right: 20px;
+	}
+	#navegation {
+		padding: 20px 10px;
+	}
+}
+
+.active h2 {
+	font-size: 6rem;
+	color: #e98a3a;
+	transition: ease 0.3s all;
+	margin-top: 60px;
 }

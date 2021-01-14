@@ -3,6 +3,15 @@ Front End Web Developer Nanodegree Program
 
 Landing-Page is a project that allow interation throughout JavaScript lenguage
 
+## Architecture
+
+css
+- styles.css    
+index.html
+js
+- app.js
+README.md
+
 ## Landing Page Behavior 
 
 This project should be created with the bellow criteria:
@@ -15,3 +24,6 @@ It should be clear which section is being viewed while scrolling through the pag
 
 ### Scroll to Anchor:
 When clicking an item from the navigation menu, the link should scroll to the appropriate section.
+
+## Installation
+ Not required
